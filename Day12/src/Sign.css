@@ -1,0 +1,24 @@
+.back {
+    background-color: #c5bcbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .back.bbtn {
+    color: white;
+    background-color: blueviolet;
+  }
+  
+  .back.bbtn:hover {
+    background-color: #007bff;
+  }
+  .bbtn {
+    background-color: aqua;
+    color: white;
+  }
+  
+  .bbtn:active {
+    background-color: rgb(126, 181, 24);
+  }

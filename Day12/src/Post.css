@@ -1,0 +1,64 @@
+/* CSS for the Post component */
+
+/* Center the form on the page */
+.App19 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the form container */
+.form188 {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 100%;
+}
+
+/* Headline style for the form */
+.add-head {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the input fields */
+.label-cls {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ip-cls {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the Submit button */
+.add-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Error message style */
+p {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
