@@ -1,0 +1,32 @@
+.getch {
+    margin: 20px auto; /* Center the component horizontally */
+    max-width: 800px; /* Limit the maximum width of the table */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Gray background for table header */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Gray background for even rows */
+  }
+   
+  tr:nth-child(odd) {
+    background-color:rgb(244, 131, 90); /* Gray background for even rows */
+  }
+  
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+  }
